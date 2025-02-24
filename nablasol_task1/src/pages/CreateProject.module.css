@@ -1,0 +1,54 @@
+.formEl {
+  width: 400px;
+  height: 400px;
+  border-radius: 10px;
+  padding: 20px;
+  /* border: 2px solid #232; */
+}
+h3 {
+  text-align: center;
+}
+.projectName {
+  width: 95%;
+}
+input {
+  margin: 10px 0px;
+  padding: 5px;
+}
+input::placeholder {
+  color: rgb(185, 185, 185);
+}
+input:focus {
+  border: 2px solid rgb(155, 194, 221);
+  outline: 2px solid rgb(155, 194, 221);
+}
+.selectClient {
+  width: 55%;
+}
+.newClient {
+  width: 30%;
+}
+.spanEl {
+  margin: 5px;
+}
+.dateElContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+.dateEl {
+  width: 40%;
+}
+textarea {
+  width: 95%;
+  height: 100px;
+  border-radius: 5px;
+  padding: 10px;
+}
+textarea:focus {
+  border: 2px solid rgb(155, 194, 221);
+  outline: 2px solid rgb(155, 194, 221);
+}
+textarea::placeholder {
+  color: rgb(185, 185, 185);
+}
